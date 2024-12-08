@@ -8,10 +8,10 @@ import { CreateTask } from '../pages/CreateTask';
 export function UserRoutes(){
     return (<>
         <Routes>
-            <Route path='/user/dashboard' element={<Dashboard/>}/>
-            <Route paht="/user/updateTask" element={<UpdateTask/>}/>
-            <Route path="/user/updateInformation" element={<UpdateInformation/>}/>
-            <Route path="/user/createTask" element={<CreateTask/>}/>
+            <Route path='/dashboard' element={<Dashboard/>}/>
+            <Route paht="/updateTask" element={<UpdateTask/>}/>
+            <Route path="/updateInformation" element={<UpdateInformation/>}/>
+            <Route path="/createTask" element={<CreateTask/>}/>
         </Routes>
     </>);
 }
