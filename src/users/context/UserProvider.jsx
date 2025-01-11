@@ -16,7 +16,7 @@ export function UserProvider({children}){
     
     const [userData,dispatch] = useReducer(UserReducer,{},initialFunction); 
 
-    const login = ()=>{
+    const login = (email,password,born_date)=>{
         const user = {
             nombre:"Dilker",
             age:"25",
